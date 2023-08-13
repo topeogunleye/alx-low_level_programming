@@ -1,10 +1,10 @@
 #include <stdio.h>
-/**                                                                                                                                                         
- * main - entry point of the program                                                                                                                        
- *                                                                                                                                                          
- * Description: Prints: 'size of char, int, long int, and float types'                                                                                
- *                                                                                                                                                          
- * Return: Description                                                                                                                                      
+/**                                                                                                                                                        
+ * main - entry point of the program  
+ *   
+ * Description: Prints: 'size of char, int, long int, and float types'
+ *  
+ * Return: Description  
  */
 int main(void)
 {
