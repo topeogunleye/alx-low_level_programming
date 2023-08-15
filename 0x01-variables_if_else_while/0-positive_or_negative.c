@@ -10,18 +10,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-printf("%d\n", n); /* print the number */
-if (n > 0) /* check if positive */
-{
-	printf("is positive\n"); /* print positive message */
-}
-else if (n == 0) /* check if zero */
-{
-	printf("is zero\n"); /* print zero message */
-}
-else /* otherwise, it is negative */
-{
-	printf("is negative\n"); /* print negative message */
-}
+
+ printf("The number %d is ", n);
+
+    if (n > 0) {
+        printf("positive\n");
+    } else if (n == 0) {
+        printf("zero\n");
+    } else {
+        printf("negative\n");
+    }
+
 	return (0);
 }
